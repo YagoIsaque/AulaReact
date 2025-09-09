@@ -2,26 +2,32 @@ export default function Exemplo1() {
   return (
     <div>
       <h1>Exemplo 1</h1>
+
       <div className="conteudo">
-        <h3> Exemplo UseState</h3>
+
+        <h3>Exemplo do useState</h3>
 
         <p>
-          O objetivo aqui será receber dois numeros, soma - los e exibir o resultado.
+          O objetivo aqui será receber dois números, soma-los, e exibir o resultado.
         </p>
 
         <form>
           <p>
-          Digite o primeiro numero <br />
-          <input type="text" />
+            Digite o primeiro número <br />
+            <input type="text" />
           </p>
 
           <p>
-          Digite o segundo numero <br />
-          <input type="text" />
+            Digite o segundo número <br />
+            <input type="text" />
           </p>
 
           <p>
-            <input type="button" value="Calcular" />  
+            <input type="button" value="Calcular" />
+          </p>
+
+          <p>
+            <a href="/">Voltar</a>
           </p>
 
         </form>
