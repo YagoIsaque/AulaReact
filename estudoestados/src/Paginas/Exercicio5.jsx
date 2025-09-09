@@ -1,16 +1,16 @@
-export default function Exercicio2()
+export default function Exercicio5()
 {
     return(
         <div >
-        <h1> Exercicio 2 </h1>
+        <h1> Exercicio 5 </h1>
         <div className="conteudo">
          <p>
-          Digite a temperatura em graus Fahrenheit  <br />
+          Digite o valor do lado <br />
           <input type="text" />
         </p>
-        
+
          <p>
-            <input type="button" value="Exercicio 2" />  
+            <input type="button" value="Exercicio 5" />  
           </p>
 
         <p>
@@ -19,5 +19,5 @@ export default function Exercicio2()
 
         </div>
         </div>
-    )
+    );
 }
